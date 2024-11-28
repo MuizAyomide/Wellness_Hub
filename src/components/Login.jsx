@@ -17,12 +17,18 @@ const Login = () => {
 
     return (
         <div className="login">
+            <div className="left">
+                <img src="Wellness-Hub image.png" alt="" />
+            </div>
+            <div className="right">
+                <img className='logo' src="Wellness-Hub.png " alt="" />
             <h2>Login</h2>
             <form onSubmit={handleLogin}>
                 <input
                     type="text"
                     placeholder="Name"
                     value={name}
+                
                     onChange={(e) => setName(e.target.value)}
                     required
                 />
@@ -32,16 +38,17 @@ const Login = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
-                />
+                    />
                 <input
                     type="password"
                     placeholder="Password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     required
-                />
+                    />
                 <button type="submit">Login</button>
             </form>
+                    </div>
         </div>
     );
 };
