@@ -18,15 +18,16 @@ form{
 
 .right{
     position: relative;
+    display: flex;
 }
 
-.logo{
+.logo {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 100px;
+    top: 30px;
+    right: 30px;
+    width: 70px !important; 
+    height: auto; 
 }
-
 
     
 
