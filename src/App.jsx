@@ -22,7 +22,7 @@ const App = () => {
                     <Welcome setWelcome={setWelcome} />
                 ) : (
                     <>
-                        {/* <Header /> */}
+                        <Header />
                         <Routes>
                             <Route path="/" element={<Home />} />
                             <Route path="/resources" element={<Resources />} />
